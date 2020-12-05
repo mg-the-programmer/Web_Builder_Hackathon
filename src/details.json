@@ -1,0 +1,30 @@
+{
+  "Title": "A Web page render",
+  "ActionDisplayName": "Login",
+  "Attributes": [
+    {
+      "Name": "Username",
+      "Size": 20,
+      "Type": "text"
+    },
+    {
+      "Name": "Password",
+      "Size": 20,
+      "Type": "SecretTextBox"
+    },
+    {
+      "Name": "UserType",
+      "Type": "DropDown",
+      "DropdownValues": [
+        {
+          "DisplayValue": "Guest",
+          "Value": "guest"
+        },
+        {
+          "DisplayValue": "Admin",
+          "Value": "admin"
+        }
+      ]
+    }
+  ]
+}
