@@ -13,16 +13,16 @@
       "Type": "SecretTextBox"
     },
     {
-      "Name": "UserType",
-      "Type": "DropDown",
+      "Name": "Gender",
+      "Type": "RadioButton",
       "DropdownValues": [
         {
-          "DisplayValue": "Guest",
-          "Value": "guest"
+          "DisplayValue": "Male",
+          "Value": "male"
         },
         {
-          "DisplayValue": "Admin",
-          "Value": "admin"
+          "DisplayValue": "Female",
+          "Value": "female"
         }
       ]
     }
